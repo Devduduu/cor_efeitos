@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container button{
+    box-shadow: 8px 5px 5px black;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+    padding: 30px;
+    margin: 0 20px;
+}
+
+
+.amarelo{
+    transition: all 2s;
+    background: rgb(255, 255, 2);
+}
+
+.vermelho{
+    transition: all 2s;
+    background: rgb(250, 3, 3);
+}
+
+.preto{
+    transition: all 2s;
+    background: rgb(46, 43, 43);
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .container button{
+        padding: 20px;
+        font-size: 1rem;
+    }
+}
